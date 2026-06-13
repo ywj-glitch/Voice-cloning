@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+*log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large binaries
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
+
+# Raw audio (too large)
+Task1/llm01.m4a
+
+# TTS Model weights (download separately)
+Task3/MOSS-TTS-Nano-main/models/**/*.onnx
+Task3/MOSS-TTS-Nano-main/models/**/*.data
+Task3/MOSS-TTS-Nano-main/models/**/.cache/
+Task3/MOSS-TTS-Nano-main/.cache/
+
+# Output audio (optional, uncomment if you want to keep them)
+# Task3/output/*.wav
+# Task3/output/*.mp3
+
+# Temporary / test artifacts
+Task3/test_*.py
+Task3/run_*.py
+Task3/moss_test.log
+Task3/output/*log.txt
+Task3/output/test_*

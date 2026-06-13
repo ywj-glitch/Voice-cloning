@@ -1,0 +1,38 @@
+# === Whisper ASR ===
+openai-whisper>=2024.09.30
+faster-whisper>=0.10.0
+
+# === Audio Processing ===
+ffmpeg-python>=0.2.0
+pydub>=0.25.1
+soundfile>=0.12.1
+
+# === LLM API ===
+openai>=1.10.0
+requests>=2.31.0
+
+# === PyTorch (for TTS models) ===
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# === Transformers (for Qwen3-TTS) ===
+transformers>=4.35.0
+accelerate>=0.25.0
+safetensors>=0.4.0
+
+# === Edge-TTS (CPU-friendly, online) ===
+edge-tts>=6.1.0
+
+# === Utilities ===
+tqdm>=4.65.0
+numpy>=1.26.0
+scipy>=1.11.0
+
+# === CosyVoice (install manually) ===
+# git clone https://github.com/FunAudioLLM/CosyVoice
+# cd CosyVoice && pip install -r requirements.txt
+
+# === F5-TTS (install manually) ===
+# git clone https://github.com/SamsungLabs/f5-tts
+# cd f5-tts && pip install -e .
