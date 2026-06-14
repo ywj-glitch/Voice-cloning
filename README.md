@@ -1,4 +1,4 @@
-# Stanford CS25 Transformers V6 - AI中文配音项目
+#基于Whisper和LLM对音频进行翻译和中文配音
 
 基于AI工具链的LLM课程中文配音项目，实现"ASR → 翻译 → 声音克隆 → 配音"全流程自动化。
 
